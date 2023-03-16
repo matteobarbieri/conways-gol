@@ -152,6 +152,8 @@ def main():
 
     # set up animation
     fig, ax = plt.subplots()
+    plt.set_cmap('gray')
+
     img = ax.imshow(grid, interpolation='nearest')
 
     ani = Animation(
